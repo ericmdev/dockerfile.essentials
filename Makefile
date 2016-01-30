@@ -4,14 +4,14 @@ build:
 	docker build -t essentials-image -f Dockerfile .
 
 # Stop and remove all containers.
-.PHONY: rm
-rm:
+.PHONY: clean
+clean:
 	docker stop essentials-container
 	docker rm essentials-container
 
 # Remove the image.
-.PHONY: rm-image
-rm-image:
+.PHONY: clean-image
+clean-image:
 	docker rm essentials-image
 
 # List all containers.

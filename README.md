@@ -21,11 +21,11 @@
 
 ### Usage
 
-Build the `essentials-image`.
+Build the image.
 
     $ make
 
-Run the interactive `essentials-container`.
+Run the interactive container.
 
     $ make run
 
