@@ -10,11 +10,7 @@ MAINTAINER Eric Mugerwa <dev@ericmugerwa.com>
 
 # Install packages.
 RUN apt-get update && apt-get install -y \
-    curl \
-    git \
-    nano \
-    supervisor \
-    wget
+    nano
 
 # Configure executable.
 ENTRYPOINT ["/bin/bash"]
