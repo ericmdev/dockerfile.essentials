@@ -16,7 +16,7 @@
 - [debian:jessie](https://hub.docker.com/_/debian/)
 
 *Docker Pull Command*
-- `docker pull ericmdev/debian-essentials`
+- `docker pull ericmdev/essentials`
 
 ### Usage
 
