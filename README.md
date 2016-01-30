@@ -4,11 +4,7 @@
 
 **Dockerfile** of [Debian](https://www.debian.org/) essentials:
 
-- curl
-- git
 - nano
-- supervisor
-- wget
 
 *Requirements*
 - [Docker](https://www.docker.com/) 
