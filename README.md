@@ -7,6 +7,7 @@
 - curl
 - git
 - nano
+- supervisor
 - wget
 
 *Requirements*
